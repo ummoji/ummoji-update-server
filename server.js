@@ -1,7 +1,7 @@
 const express = require('express')
 
 const app = express()
-const url = process.env.URL || 'https://ummoji.herokuapp.com'
+const url = process.env.URL || 'https://ummoji-update-server.herokuapp.com'
 const port = Number(process.env.PORT) || 5000
 const downloadUrl = 'https://github.com/electron/ummoji/releases/download'
 
