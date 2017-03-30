@@ -5,6 +5,7 @@
   "private": true,
   "repository": "https://github.com/ummoji/ummoji-update-server",
   "dependencies": {
+    "dotenv-safe": "^4.0.3",
     "express": "^4.15.2"
   }
 }

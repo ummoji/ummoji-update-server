@@ -1,3 +1,5 @@
+require('dotenv-safe').load()
+
 const express = require('express')
 const app = express()
 const url = 'https://ummoji-update-server.herokuapp.com'
