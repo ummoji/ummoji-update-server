@@ -33,7 +33,7 @@ app.get('/updates', (request, response) => {
       name: `Ummoji v${latestRelease}`,
       notes: 'The latest release of the app',
       pub_date: new Date().toISOString(),
-      url: `${url}/updates/ummoji-${latestRelease}-mac.zip`
+      url: `${url}/updates/Ummoji-${latestRelease}-mac.zip`
     })
   }
 })
