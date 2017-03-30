@@ -13,11 +13,3 @@ All pushes to the master branch are automatically deployed to Heroku.
 ```
 heroku config:set UMMOJI_STABLE_VERSION=1.1.0
 ```
-
-## Downloading Releases
-
-The following convenience URLs redirect to the latest release for a given platform:
-
-- [updates/ummoji-linux.zip](https://ummoji-update-server.herokuapp.com/updates/ummoji-linux.zip)
-- [updates/ummoji-mac.zip](https://ummoji-update-server.herokuapp.com/updates/ummoji-mac.zip)
-- [updates/ummoji-windows.zip](https://ummoji-update-server.herokuapp.com/updates/ummoji-windows.zip)
