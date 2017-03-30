@@ -4,7 +4,7 @@ const express = require('express')
 const app = express()
 const url = 'https://ummoji-update-server.herokuapp.com'
 const port = Number(process.env.PORT) || 5000
-const downloadUrl = 'https://github.com/ummoji/ummoji-desktop/releases/download'
+const assetDownloadUrl = 'https://github.com/ummoji/ummoji-desktop/releases/download'
 const homepageUrl = 'https://github.com/ummoji/ummoji-update-server'
 
 app.set('port', port)
@@ -20,7 +20,7 @@ app.get('/', (request, response) => {
 app.get('/updates/:asset', (request, response) => {
   const asset = request.params.asset
   const version = process.env.UMMOJI_STABLE_VERSION
-  response.redirect(`${downloadUrl}/v${version}/${asset}`)
+  response.redirect(`${assetDownloadUrl}/v${version}/${asset}`)
 })
 
 app.get('/updates', (request, response) => {
